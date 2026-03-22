@@ -1,0 +1,76 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background - warm wall color -->
+  <rect width="800" height="600" fill="#e8d5c4"/>
+  
+  <!-- Wooden floor -->
+  <rect x="0" y="450" width="800" height="150" fill="#8b6f47"/>
+  <line x1="0" y1="490" x2="800" y2="490" stroke="#7a5f3a" stroke-width="2" opacity="0.5"/>
+  <line x1="0" y1="530" x2="800" y2="530" stroke="#7a5f3a" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Dining tables -->
+  <!-- Table 1 - Left -->
+  <rect x="50" y="420" width="140" height="100" fill="#6b4423" rx="8"/>
+  <rect x="55" y="425" width="130" height="90" fill="#8b5a3c"/>
+  
+  <!-- Place setting on table 1 -->
+  <circle cx="90" cy="445" r="18" fill="#fffdf8" stroke="#d4af8a" stroke-width="2"/>
+  <circle cx="90" cy="445" r="14" fill="#f5f1e8"/>
+  <rect x="110" y="440" width="12" height="25" fill="#c4a000" opacity="0.8"/>
+  
+  <!-- Table 2 - Right -->
+  <rect x="610" y="420" width="140" height="100" fill="#6b4423" rx="8"/>
+  <rect x="615" y="425" width="130" height="90" fill="#8b5a3c"/>
+  
+  <!-- Place setting on table 2 -->
+  <circle cx="650" cy="445" r="18" fill="#fffdf8" stroke="#d4af8a" stroke-width="2"/>
+  <circle cx="650" cy="445" r="14" fill="#f5f1e8"/>
+  <rect x="670" y="440" width="12" height="25" fill="#c4a000" opacity="0.8"/>
+  
+  <!-- Wall shelves with bottles -->
+  <!-- Shelf 1 -->
+  <rect x="100" y="100" width="200" height="15" fill="#6b4423" stroke="#4a2f1a" stroke-width="2"/>
+  <circle cx="130" cy="85" r="15" fill="#2d5016"/>
+  <circle cx="160" cy="85" r="15" fill="#8b3a3a"/>
+  <circle cx="190" cy="85" r="15" fill="#2d5016"/>
+  <circle cx="220" cy="85" r="15" fill="#8b3a3a"/>
+  <circle cx="250" cy="85" r="15" fill="#d4af8a"/>
+  
+  <!-- Shelf 2 -->
+  <rect x="500" y="150" width="200" height="15" fill="#6b4423" stroke="#4a2f1a" stroke-width="2"/>
+  <circle cx="530" cy="135" r="15" fill="#2d5016"/>
+  <circle cx="560" cy="135" r="15" fill="#8b3a3a"/>
+  <circle cx="590" cy="135" r="15" fill="#2d5016"/>
+  <circle cx="620" cy="135" r="15" fill="#8b3a3a"/>
+  
+  <!-- Wall painting/art -->
+  <rect x="350" y="80" width="150" height="120" fill="#c9a665" stroke="#8b6f47" stroke-width="4"/>
+  <rect x="360" y="90" width="130" height="100" fill="#d9b875"/>
+  <!-- Abstract art lines -->
+  <path d="M 370 110 Q 420 130 450 110" stroke="#8b6f47" stroke-width="3" fill="none" opacity="0.7"/>
+  <circle cx="390" cy="140" r="12" fill="#8b6f47" opacity="0.6"/>
+  <circle cx="430" cy="145" r="15" fill="#8b6f47" opacity="0.5"/>
+  
+  <!-- Pendant lights -->
+  <circle cx="150" cy="30" r="12" fill="#d4af8a"/>
+  <rect x="147" y="30" width="6" height="20" fill="#c4a000"/>
+  <path d="M 147 50 Q 140 55 135 65" stroke="#c4a000" stroke-width="1" fill="none"/>
+  <ellipse cx="135" cy="70" rx="8" ry="15" fill="#ffeb99" opacity="0.8"/>
+  
+  <circle cx="400" cy="25" r="12" fill="#d4af8a"/>
+  <rect x="397" y="25" width="6" height="20" fill="#c4a000"/>
+  <path d="M 397 45 Q 390 50 385 60" stroke="#c4a000" stroke-width="1" fill="none"/>
+  <ellipse cx="385" cy="65" rx="8" ry="15" fill="#ffeb99" opacity="0.8"/>
+  
+  <circle cx="650" cy="35" r="12" fill="#d4af8a"/>
+  <rect x="647" y="35" width="6" height="20" fill="#c4a000"/>
+  <path d="M 647 55 Q 640 60 635 70" stroke="#c4a000" stroke-width="1" fill="none"/>
+  <ellipse cx="635" cy="75" rx="8" ry="15" fill="#ffeb99" opacity="0.8"/>
+  
+  <!-- Window -->
+  <rect x="30" y="200" width="120" height="100" fill="#b8d7e8" stroke="#6b4423" stroke-width="4"/>
+  <line x1="90" y1="200" x2="90" y2="300" stroke="#6b4423" stroke-width="2"/>
+  <line x1="30" y1="250" x2="150" y2="250" stroke="#6b4423" stroke-width="2"/>
+  <!-- Curtains -->
+  <path d="M 25 200 Q 20 220 25 300" stroke="#8b3a3a" stroke-width="12" fill="none" opacity="0.8"/>
+  <path d="M 155 200 Q 160 220 155 300" stroke="#8b3a3a" stroke-width="12" fill="none" opacity="0.8"/>
+</svg>

@@ -1,0 +1,88 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow2" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="5" stdDeviation="8" flood-opacity="0.35"/>
+    </filter>
+    <radialGradient id="bowlGradient" cx="45%" cy="35%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#ede8dd;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ccc0b0;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="pastaGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4a574;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b8814a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#faf7f2"/>
+  
+  <!-- Wooden table surface -->
+  <rect x="0" y="500" width="800" height="100" fill="#8b5a2b"/>
+  <line x1="0" y1="545" x2="800" y2="545" stroke="#6b4423" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Bowl/plate -->
+  <ellipse cx="400" cy="330" rx="220" ry="180" fill="#e8dac8" filter="url(#shadow2)"/>
+  <ellipse cx="400" cy="320" rx="215" ry="175" fill="url(#bowlGradient)"/>
+  <ellipse cx="410" cy="305" rx="120" ry="80" fill="#ffffff" opacity="0.25"/>
+  
+  <!-- Creamy truffle sauce base -->
+  <ellipse cx="400" cy="370" rx="180" ry="90" fill="#a88860"/>
+  <ellipse cx="400" cy="365" rx="175" ry="85" fill="#b8985a"/>
+  <ellipse cx="420" cy="350" rx="100" ry="70" fill="#c9b06a" opacity="0.7"/>
+  
+  <!-- Pasta nests/piles -->
+  <!-- Pasta strand 1 -->
+  <path d="M 300 340 Q 350 310 380 350 Q 400 370 390 390" stroke="url(#pastaGradient)" stroke-width="18" fill="none" stroke-linecap="round" opacity="0.9" filter="url(#shadow2)"/>
+  <path d="M 300 340 Q 350 310 380 350 Q 400 370 390 390" stroke="#d9a966" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.6"/>
+  
+  <!-- Pasta strand 2 -->
+  <path d="M 320 320 Q 370 335 410 310 Q 440 295 450 330" stroke="url(#pastaGradient)" stroke-width="16" fill="none" stroke-linecap="round" opacity="0.85" filter="url(#shadow2)"/>
+  <path d="M 320 320 Q 370 335 410 310 Q 440 295 450 330" stroke="#d9a966" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.5"/>
+  
+  <!-- Pasta strand 3 -->
+  <path d="M 440 350 Q 420 370 450 400 Q 470 415 480 390" stroke="url(#pastaGradient)" stroke-width="17" fill="none" stroke-linecap="round" opacity="0.88" filter="url(#shadow2)"/>
+  <path d="M 440 350 Q 420 370 450 400 Q 470 415 480 390" stroke="#d9a966" stroke-width="11" fill="none" stroke-linecap="round" opacity="0.55"/>
+  
+  <!-- Wild mushrooms -->
+  <!-- Mushroom 1 -->
+  <ellipse cx="320" cy="350" rx="35" ry="28" fill="#6b4423" filter="url(#shadow2)"/>
+  <ellipse cx="318" cy="345" rx="33" ry="25" fill="#8b5a3c"/>
+  <ellipse cx="325" cy="340" rx="20" ry="15" fill="#9d6a4a" opacity="0.7"/>
+  <!-- Stem -->
+  <rect x="318" y="375" width="6" height="20" fill="#c9a665" opacity="0.8"/>
+  
+  <!-- Mushroom 2 -->
+  <ellipse cx="480" cy="320" rx="38" ry="32" fill="#6b4423" filter="url(#shadow2)"/>
+  <ellipse cx="482" cy="315" rx="36" ry="29" fill="#8b5a3c"/>
+  <ellipse cx="475" cy="310" rx="22" ry="18" fill="#9d6a4a" opacity="0.7"/>
+  <!-- Stem -->
+  <rect x="480" y="345" width="6" height="22" fill="#c9a665" opacity="0.8"/>
+  
+  <!-- Mushroom 3 - smaller -->
+  <ellipse cx="360" cy="390" rx="28" ry="22" fill="#6b4423" filter="url(#shadow2)"/>
+  <ellipse cx="358" cy="386" rx="26" ry="20" fill="#8b5a3c"/>
+  <ellipse cx="365" cy="382" rx="16" ry="12" fill="#9d6a4a" opacity="0.7"/>
+  
+  <!-- Parmesan shavings -->
+  <g filter="url(#shadow2)">
+    <ellipse cx="340" cy="330" rx="25" ry="8" fill="#f5f1e8" opacity="0.8" transform="rotate(-25 340 330)"/>
+    <ellipse cx="420" cy="345" rx="28" ry="9" fill="#f5f1e8" opacity="0.75" transform="rotate(35 420 345)"/>
+    <ellipse cx="460" cy="360" rx="22" ry="7" fill="#f5f1e8" opacity="0.7" transform="rotate(-15 460 360)"/>
+    <ellipse cx="380" cy="400" rx="24" ry="8" fill="#f5f1e8" opacity="0.72" transform="rotate(45 380 400)"/>
+  </g>
+  
+  <!-- Fresh basil leaf -->
+  <g filter="url(#shadow2)">
+    <ellipse cx="410" cy="285" rx="18" ry="24" fill="#2d5016"/>
+    <ellipse cx="410" cy="285" rx="15" ry="22" fill="#3d6b1f"/>
+    <path d="M 395 285 Q 410 275 425 285" stroke="#1a3009" stroke-width="1" opacity="0.5" fill="none"/>
+  </g>
+  
+  <!-- Garlic baguette slices visible in background -->
+  <g opacity="0.6" filter="url(#shadow2)">
+    <ellipse cx="300" cy="280" rx="20" ry="25" fill="#d4a674"/>
+    <ellipse cx="298" cy="278" rx="18" ry="23" fill="#e8be7a"/>
+    <line x1="285" y1="285" x2="315" y2="285" stroke="#c9a665" stroke-width="1" opacity="0.5"/>
+  </g>
+</svg>

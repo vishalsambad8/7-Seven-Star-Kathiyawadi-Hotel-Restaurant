@@ -1,0 +1,72 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f0ede5"/>
+  
+  <!-- Wooden table surface -->
+  <rect x="0" y="250" width="800" height="350" fill="#8b6f47"/>
+  <line x1="0" y1="320" x2="800" y2="320" stroke="#7a5f3a" stroke-width="1" opacity="0.5"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#7a5f3a" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Heirloom Tomatoes -->
+  <circle cx="120" cy="200" r="35" fill="#c41f1f"/>
+  <circle cx="130" cy="195" r="33" fill="#d63333"/>
+  <path d="M 115 170 L 125 160 L 135 165" fill="#2d5016" stroke="#1a3009" stroke-width="1"/>
+  
+  <!-- Garlic bulbs -->
+  <ellipse cx="280" cy="220" rx="25" ry="35" fill="#f5f1e8" stroke="#d4af8a" stroke-width="2"/>
+  <path d="M 265 195 L 260 185 L 270 190 Z" fill="#2d5016"/>
+  <path d="M 280 195 L 275 185 L 285 190 Z" fill="#2d5016"/>
+  <path d="M 295 195 L 290 185 L 300 190 Z" fill="#2d5016"/>
+  
+  <!-- Fresh basil -->
+  <ellipse cx="420" cy="180" rx="35" ry="45" fill="#2d5016"/>
+  <ellipse cx="405" cy="160" rx="12" ry="18" fill="#3d6b1f"/>
+  <ellipse cx="435" cy="160" rx="12" ry="18" fill="#3d6b1f"/>
+  <ellipse cx="410" cy="190" rx="12" ry="18" fill="#3d6b1f"/>
+  <ellipse cx="430" cy="190" rx="12" ry="18" fill="#3d6b1f"/>
+  <ellipse cx="420" cy="210" rx="12" ry="18" fill="#3d6b1f"/>
+  
+  <!-- Chili peppers -->
+  <path d="M 550 200 Q 550 240 560 260 L 570 240 Q 570 200 560 180 Z" fill="#c41f1f" stroke="#8b3a3a" stroke-width="1"/>
+  <path d="M 560 170 L 565 160 L 562 172 Z" fill="#2d5016"/>
+  <path d="M 590 210 Q 590 245 598 265 L 607 245 Q 607 210 598 190 Z" fill="#e67e3c" stroke="#d66a2f" stroke-width="1"/>
+  <path d="M 598 180 L 603 170 L 600 182 Z" fill="#2d5016"/>
+  
+  <!-- Lemon -->
+  <circle cx="700" cy="210" r="30" fill="#f4e4a6" stroke="#d4af8a" stroke-width="2"/>
+  <ellipse cx="705" cy="205" rx="25" ry="28" fill="#ffeb99"/>
+  <path d="M 705 180 L 708 170 L 710 182 Z" fill="#2d5016"/>
+  
+  <!-- Fresh bread loaf -->
+  <ellipse cx="150" cy="350" rx="50" ry="45" fill="#c9a665"/>
+  <ellipse cx="155" cy="340" rx="48" ry="40" fill="#d9b875"/>
+  <!-- Bread texture cuts -->
+  <path d="M 110 330 Q 150 325 190 330" stroke="#8b6f47" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 110 350 Q 150 345 190 350" stroke="#8b6f47" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 110 370 Q 150 365 190 370" stroke="#8b6f47" stroke-width="2" fill="none" opacity="0.6"/>
+  
+  <!-- Olive oil bottle -->
+  <ellipse cx="310" cy="340" rx="20" ry="60" fill="#2d5016"/>
+  <rect x="295" y="330" width="30" height="15" fill="#8b6f47"/>
+  <rect x="300" y="325" width="20" height="10" fill="#6b4423"/>
+  <ellipse cx="310" cy="405" rx="22" ry="8" fill="#1a3009" opacity="0.7"/>
+  <!-- Oil reflection -->
+  <ellipse cx="315" cy="360" rx="6" ry="20" fill="#4a7c3a" opacity="0.5"/>
+  
+  <!-- Fresh mushrooms -->
+  <path d="M 480 340 L 470 390 L 490 395 L 500 340 Z" fill="#8b6f47"/>
+  <ellipse cx="485" cy="335" rx="15" ry="12" fill="#a0865a"/>
+  
+  <path d="M 530 345 L 520 395 L 540 395 L 545 345 Z" fill="#8b6f47"/>
+  <ellipse cx="532" cy="340" rx="14" ry="11" fill="#a0865a"/>
+  
+  <!-- Scattered herbs on table -->
+  <ellipse cx="250" cy="450" rx="8" ry="12" fill="#2d5016" transform="rotate(-30 250 450)"/>
+  <ellipse cx="280" cy="470" rx="8" ry="12" fill="#2d5016" transform="rotate(25 280 470)"/>
+  <ellipse cx="500" cy="480" rx="8" ry="12" fill="#2d5016" transform="rotate(-40 500 480)"/>
+  
+  <!-- Water droplets for freshness -->
+  <circle cx="140" cy="165" r="4" fill="#b8d7e8" opacity="0.7"/>
+  <circle cx="410" cy="150" r="3" fill="#b8d7e8" opacity="0.7"/>
+  <circle cx="560" cy="240" r="3" fill="#b8d7e8" opacity="0.7"/>
+</svg>
